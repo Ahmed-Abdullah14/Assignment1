@@ -13,13 +13,14 @@
     <!-- Add meta tags, title, and link to styles.css here -->
 </head>
 
-<body>
-    <header>
-        <img src = "Purrfect Innovations Logo.png" alt = "Company Logo" width = 12%>
+<body class = "body">
+    <header class = "header">
+        <img src = "Purrfect Innovations Logo.png" alt = "Company Logo" class = "header-logo">
+        <h1>Purrfect Innovations</h1>
         <!-- Logo and website name go here -->
     </header>
     
-    <div>
+    <div class = "container">
         <nav>
             <a href="index.html">Home</a>
             <a href="Products.html">Shop</a>
@@ -29,55 +30,32 @@
         <!-- Navigation links go here -->
     </div>
 
-    <main>
-        <style>
-            /* Align text to the left within the form */
-            form {
-                text-align: left;
-            }
-        </style>
-
-        <form>
-            <table>
-                <tr>
-                    <br><th><label for="First Name">First Name:</label></th>
-                    <td><input type="text" id="First Name" name="First Name" required></td>
-                </tr>
-                <tr>
-                    <th><label for="Last Name">Last Name:</label></th>
-                    <td><input type="text" id="Last Name" name="Last Name" required></td>
-                </tr>
-                <tr>
-                    <th><label for="Phone Num">Phone Number:</label></th>
-                    <td><input type="number" id="Phone Num" name="Phone Num" required></td>
-                </tr>
-                <tr>
-                    <th><label for="Email">Email:</label></th>
-                    <td><textarea id="Email" name="Email" rows="1" cols="50" required></textarea></td>
-                </tr>
-                <tr>
-                    <th><label for="Message">Message:</label></th>
-                    <td><textarea id="Message" name="Message" rows="5" cols="50" required></textarea></td>
-                </tr>
-            </table>
-            
-            <nav>
-                <a href="https://www.facebook.com/purrfectinnovations/">
-                    <img src="Facebook_Icon.png" alt="Facebook Icon" width="2%">
-                </a>
-            
-                <a href="https://www.instagram.com/purrfect_innovations/">
-                    <img src="Instagram_Icon.png" alt="Instagram Icon" width="2%">
-                </a>
-            </nav>
-
-            <br><button type="submit">Submit</button>
-        </form>
+    <main>  
+        <section class = "contact">
+            <h2>Get in Touch</h2>
+            <p>Have any questions or converns? Contact us today!</p>
+            <div class = "contact-method">
+                <h4>Email</h4>
+                <p>Email us at: <a href = support@purrfectinnovations.com>support@purrfectinnovations.com</a></p>
+            </div>
+            <div class = "contact-method">
+                <h4>Phone</h4>
+                <p>Call us at: <a href = tel: +1 888 232 1234>+1 888 232 1234</a></p>
+            </div>
+            <div class = "contact-method">
+                <h4>Social Media Links</h4>
+                <p>Connect with us on social media</p>
+                <nav>
+                    <a href="https://www.facebook.com/purrfectinnovations/">Facebook</a><br>
+                    <a href="https://www.instagram.com/purrfect_innovations/">Instagram</a><br>
+                    <a href = "https://twitter.com/">Twitter</a>
+                </nav>
+            </div>    
+        </section>      
     </main> 
 
-    <footer>
+    <footer class = "footer">
         <p>Purrfect Innovation &copy; 2024 </p>
-        <!-- Copyright notice goes here -->
     </footer>
 </body>
 </html>

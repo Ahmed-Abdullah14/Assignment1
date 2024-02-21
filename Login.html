@@ -13,13 +13,14 @@
     <!-- Add meta tags, title, and link to styles.css here -->
 </head>
 
-<body>
-    <header>
-        <img src = "Purrfect Innovations Logo.png" alt = "Company Logo" width = 12%>
+<body class = "body">
+    <header class = "header">
+        <img src = "Purrfect Innovations Logo.png" alt = "Company Logo" class = "header-logo">
+        <h1>Purrfect Innovations</h1>
         <!-- Logo and website name go here -->
     </header>
     
-    <div>
+    <div class = "container">
         <nav>
             <a href="index.html">Home</a>
             <a href="Products.html">Shop</a>
@@ -30,23 +31,32 @@
     </div>
 
     <main>
-        <form>
+        <form class = "form">
             <table>
                 <tr>
-                    <br><th><label for="username">Username:</label></th>
+                    <th><label for="username">Username:</label></th>
+                </tr>
+                <tr>
                     <td><input type="text" id="username" name="username" placeholder="Enter your username" required></td>
                 </tr>
                 <tr>
                     <th><label for="password">Password:</label></th>
+                </tr>
+                <tr>
                     <td><input type="password" id="password" name="password" placeholder="Enter your password" required></td>
+                    <td><button type="submit">Login</button>
                 </tr>
             </table>
-            <button type="submit">Login</button>
-            <button type="signup">Sign Up</button>
+            <table>
+                <tr>
+                    <td><p>Don't have an account yet?</p></td>
+                    <td><a href= #>Sign up today</a></td>
+                </tr>
+            </table> 
         </form>
     </main>    
 
-    <footer>
+    <footer class = "footer">
         <p>Purrfect Innovation &copy; 2024 </p>
         <!-- Copyright notice goes here -->
     </footer>
