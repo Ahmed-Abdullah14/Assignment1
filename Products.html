@@ -128,9 +128,9 @@
                     delete cart[name];
                 }
                 const cartItemToRemove = document.querySelector(`.cart-item[data-name="${name}"]`);
-                    if (cartItemToRemove) {
-                        cartItemToRemove.remove();
-                    }
+                if (cartItemToRemove) {
+                    cartItemToRemove.remove();
+                }
             } 
             updateCartDisplay(name);
         }
