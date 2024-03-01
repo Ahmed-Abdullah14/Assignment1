@@ -181,6 +181,20 @@
      background-color: #45A049;
 }
 
+.removeButton {
+    background-color: #ee0505c7;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    color: white;
+    border: none;
+
+}
+
+.removeButton:hover {
+    background-color: #ff0000;
+}
+
 @media screen and (min-width: 769px) {
     .items {
         width: calc(50% - 100px)
